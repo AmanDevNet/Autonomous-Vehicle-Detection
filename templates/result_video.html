@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Video Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container"><a class="navbar-brand" href="/">AutoDetect AI</a></div>
+    </nav>
+    <div class="container mt-4 text-center">
+        <h2>Video Result</h2>
+        <div class="alert alert-success">
+            Video processing complete!
+        </div>
+        <video width="640" height="480" controls class="img-fluid rounded border border-2 border-primary">
+            <source src="{{ url_for('get_image', filename=video_file) }}" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="mt-4">
+            <h4>Unique Objects Detected (Tracking)</h4>
+            <ul class="list-group d-inline-block text-start">
+                {% for key, value in metrics.items() %}
+                <li class="list-group-item">{{ key }}: <strong>{{ value }}</strong></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="mt-4">
+            <a href="/" class="btn btn-secondary mt-3">Back</a>
+        </div>
+    </div>
+</body>
+
+</html>
