@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚗 Autonomous Vehicle Object Detection System
 
 > **A Next-Gen Computer Vision System for Smart Traffic Analysis and Road Safety.**
@@ -55,10 +54,9 @@ We utilized a robust and modern technology stack to build this scalable applicat
    Open your browser and navigate to `http://127.0.0.1:5000`
 
 ## 👨‍💻 Credits
-**Developed with ❤️ and ☕ by [Aman Sharma]**
+**Developed by [Aman Sharma]**
 
 ---
 *Empowering the future of mobility, one pixel at a time.*
-=======
+
 # Autonomous-Vehicle-Detection
->>>>>>> a0c2220ec75ff6702e039547fa426c239d629285
