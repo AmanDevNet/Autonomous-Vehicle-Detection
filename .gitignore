@@ -1,0 +1,24 @@
+# datasets
+dataset/
+coco128/
+
+# training outputs
+runs/
+outputs/
+
+# model weights
+*.pt
+*.pth
+*.onnx
+
+# media
+*.mp4
+*.webm
+*.avi
+*.jpg
+*.png
+*.zip
+
+# cache
+__pycache__/
+*.cache
