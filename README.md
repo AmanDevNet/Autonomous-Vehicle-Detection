@@ -33,7 +33,7 @@ We utilized a robust and modern technology stack to build this scalable applicat
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/autonomous-vehicle-detection.git
+   git clone https://github.com/AmanDevNet/autonomous-vehicle-detection.git
    cd autonomous-vehicle-detection
    ```
 
